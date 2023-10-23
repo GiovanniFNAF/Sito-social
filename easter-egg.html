@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,1000&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banna Junior</title>
+    <style>
+        body {
+            background-color: gold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 900px;
+        }
+
+        .ban {
+            background-color: #151c2c;
+            color: rgb(254, 255, 255);
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-color: yellow;
+            border-style: solid;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+            padding: 20px 40px;
+            margin-right: 10px;
+            font-size: 13px;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+        
+        .ban:hover,
+        .ban:active {
+            background-color: yellow;
+            color: #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <button class="ban" onclick="ban()">BANNA JUNIOR</button>
+    
+    <script type="text/javascript">
+        function ban()
+        {
+            alert("Bravo! Hai bannato junior!");
+        }
+    </script>
+</body>
+</html>
